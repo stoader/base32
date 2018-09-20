@@ -22,7 +22,6 @@ func encode(input []byte) ([]byte) {
 
 	return output
 }
-
 func decode(input []byte) ([]byte) {
 	encoding := base32.StdEncoding
 
