@@ -13,7 +13,6 @@ func TestEncodeOrDecode(t *testing.T) {
 		{false, "hello", "NBSWY3DP"},
 		{true, "NBSWY3DP", "hello"},
 	}
-
 	for _, testCase := range testCases {
 		// given
 		input := testCase.input
